@@ -12,6 +12,7 @@
     "lint:fx": "eslint src/**/*.ts --fix",
     "lint": "eslint src/**/*.ts",
     "start": "tsc && node dist/index.js",
+    "build": "tsc",
     "server": "ts-node src/server.ts",
     "tsc": "tsc",
     "tscCheck": "tsc --noEmit"
